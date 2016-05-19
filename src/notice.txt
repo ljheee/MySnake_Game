@@ -1,0 +1,24 @@
+2016.5
+Java course--homework
+
+思路：
+1、蛇“撞墙”，boolean isLive 设置为false
+	提示用户“是否--再来一局”=接受若OK，清空分数，reStart();
+	
+2、Snake 的部分属性，设为static,在UI类中，方便通过设置属性值  来加以控制
+3、PaintThread--绘图线程，由2个boolean型来控制
+		isRunning       //当有键盘按下事件触发时，启动绘图线程，并设置isRunning为true
+		Snake.isLive    //在Snake类中，判断出蛇“撞墙”了，就设置isLive为false,停止线程继续绘制
+
+
+
+
+全文搜索--框架
+slor  ---更上次
+lucene--更底层
+
+
+
+ftp----框架
+mina
+neety
